@@ -5,6 +5,10 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Mono', monospace;
 */
 
+/* body and html settings */
+html{
+    background-color: rgb(109,103,102);
+}
 h1, h2, h3, h4{
     font-family: 'Montserrat', sans-serif;
 }
@@ -32,7 +36,7 @@ a:hover{
     position: fixed;
     top: 0;
     width: 100%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.24); */
     z-index: 100;
     color: white;
 }
@@ -45,11 +49,15 @@ a:hover{
     height: 100%;
     margin: auto;
 }
+.link-two{
+    margin-left: 20px;
+}
 .burger{
     height: 100%;
 }
 .btn-icon{
     height: 70%;
+    /* background-color: rgba(100, 100, 100, 0.795); */
 }
 .navbar-toggler{
     border: none;
@@ -76,4 +84,8 @@ a:hover{
 }
 button{
     font-family: 'Roboto Mono', monospace;
+}
+/* section */
+p{
+    line-height: 30px;  
 }
