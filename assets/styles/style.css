@@ -11,6 +11,7 @@ html{
 }
 h1, h2, h3, h4{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 h1{
     font-size: 40px;
@@ -20,6 +21,9 @@ h2{
 }
 h3{
     font-size: 28px;
+}
+p{
+    font-family: 'Roboto Mono', monospace; 
 }
 /* navbar */
 a{
@@ -67,6 +71,7 @@ a:hover{
 
 .landing{
     background-image: url("/assets/images/backdrop.jpg");
+    background-size: cover;
     height: 500px;
     padding:200px 7rem;
 }
@@ -88,4 +93,66 @@ button{
 /* section */
 p{
     line-height: 30px;  
+}
+.about-me{
+    width: 100%;
+    padding: 5rem 9rem;
+}
+.w-i-d {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+.card-container{
+    display: flex;
+    justify-content:center;
+    background-image: url('/assets/images/adventure-atmosphere-conifer-conifers-418831.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px !important;
+    width: 22%;
+    margin: auto 25px;
+    border: none;
+    height: 70%;
+}
+.connect-btn{
+    /* margin-top: 20px; */
+    width: 90%;
+    margin: 0 auto;
+}
+.card-snippet{
+    margin-bottom: 20px;
+}
+/* footer */
+footer{
+    height: 120px;
+    background-color: rgb(197, 49, 49);
+    display: flex;
+    
+}
+.foot-icons{ /* div */
+    height: 40%;
+    display: flex;
+    padding: auto 7rem;
+
+}
+.foot-pages{ /* div */
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.foot-logo{
+    height: 100%;
+    width: auto;
+}
+.icons{
+    height: 100%;
 }
