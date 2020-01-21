@@ -1,0 +1,79 @@
+
+/* 
+fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+h1, h2, h3, h4{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 28px;
+}
+/* navbar */
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Roboto Mono', monospace;
+}
+a:hover{
+    color: whitesmoke;
+}
+.navbar{
+    height: 90px;
+    padding:  0 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+    z-index: 100;
+    color: white;
+}
+.navbar-brand{
+    height: 100%;
+    padding: 20px 0;
+    margin: auto;
+}
+.nav-logo{
+    height: 100%;
+    margin: auto;
+}
+.burger{
+    height: 100%;
+}
+.btn-icon{
+    height: 70%;
+}
+.navbar-toggler{
+    border: none;
+    padding: 2px;
+}
+/* landing */
+
+.landing{
+    background-image: url("/assets/images/backdrop.jpg");
+    height: 500px;
+    padding:200px 7rem;
+}
+.welcome{
+    padding: 20px ;
+    color: white;
+    line-height: 30px;
+}
+.title{
+    margin-bottom: 20px;
+}
+.snippet {
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+button{
+    font-family: 'Roboto Mono', monospace;
+}
