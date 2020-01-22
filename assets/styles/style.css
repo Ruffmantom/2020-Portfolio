@@ -71,7 +71,7 @@ a:hover{
 /* landing */
 
 .landing{
-    background-image: url("/assets/images/backdrop.jpg");
+    background-image: url("../images/backdrop.jpg");
     background-size: cover;
     height: 500px;
     padding:200px 7rem;
@@ -111,12 +111,16 @@ button{
         justify-content: center;
     }
     .link-two{
+        margin-top: 0;
         margin-left: 0;
     }
     .navbar{
         height: auto;
         width: 100%;
         padding: 20px 30px;
+    }
+    .tabs{
+        margin-top: 10px;
     }
 
 }
@@ -137,7 +141,7 @@ p{
 .card-container{
     display: flex;
     justify-content:center;
-    background-image: url('/assets/images/adventure-atmosphere-conifer-conifers-418831.jpg');
+    background-image: url('../images/adventure-atmosphere-conifer-conifers-418831.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
