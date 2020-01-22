@@ -67,6 +67,7 @@ a:hover{
     border: none;
     padding: 2px;
 }
+
 /* landing */
 
 .landing{
@@ -89,6 +90,35 @@ a:hover{
 }
 button{
     font-family: 'Roboto Mono', monospace;
+}
+@media only screen and (max-width: 1000px){
+    .nav-logo{
+        display: none;
+    }
+    .hide-small{
+        display: none;
+    }
+    .welcome{
+        width: 90%;
+        text-align: center;
+    }
+    .resume{
+        width: 60%;
+    }
+    .landing{
+        padding:200px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .link-two{
+        margin-left: 0;
+    }
+    .navbar{
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+    }
+
 }
 /* section */
 p{
@@ -123,6 +153,14 @@ p{
     border: none;
     height: 70%;
 }
+@media only screen and (max-width: 1291px){
+    .card{
+        padding: 15px 19px !important;
+        width: 26%;
+        margin: auto 25px;
+    }
+}
+
 .connect-btn{
     /* margin-top: 20px; */
     width: 90%;
@@ -151,4 +189,33 @@ footer{
 }
 .row{
     margin: 0;
+}
+@media only screen and (max-width: 1000px){
+    .card{
+        width: 40%;
+        margin: 40px auto;
+    }
+    .card-container{
+        display: block;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 698px){
+    .card{
+        width: 50%;
+
+    }
+    .about-me{
+        padding:25px;
+    }
+    .landing{
+        padding:100px 0;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .card{
+        width: 80%;
+
+    }
 }
