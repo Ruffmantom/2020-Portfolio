@@ -1,3 +1,9 @@
+let overlayText = $('.overlay-text').text();
+console.log(overlayText)
+console.log(overlayText.toUpperCase())
+var upper = overlayText.toUpperCase()
+
+
 function scrollFunction() {
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
         $(".navbar").css("background-color", "rgba(100, 100, 100)");
