@@ -225,6 +225,7 @@ footer{
 .img-3{
     background-image: url('../images/dd.png');
 }
+
 .overlay{
     /* position: absolute; */
     top: 0;
@@ -254,6 +255,7 @@ footer{
     
 }
 
+
 /* MOBILE SIZES */
 @media only screen and (max-width: 1000px){
     .card{
@@ -276,6 +278,24 @@ footer{
     .landing{
         padding:100px 0;
         height: 400px;
+    }
+    /* project page */
+    .overlay{
+        display: none;
+    }
+    .space{
+        margin-top: 2rem;
+    }
+    .projects-logo{
+        height: 45px;
+        margin-bottom: 15px;
+    }
+    .project-summary{
+        padding:  0 1rem;   
+    }
+    .projects-title{
+        /* margin-bottom: 15px; */
+        font-size: 28px;
     }
 }
 @media only screen and (max-width: 400px){
