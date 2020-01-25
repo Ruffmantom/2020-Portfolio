@@ -2,6 +2,7 @@ let overlayText = $('.overlay-text').text();
 console.log(overlayText)
 console.log(overlayText.toUpperCase())
 var upper = overlayText.toUpperCase()
+console.log('hi emily')
 
 
 function scrollFunction() {
