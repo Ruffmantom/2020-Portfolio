@@ -1,16 +1,16 @@
+var burger = $('.burger');
+var close = $('.close');
+
 let overlayText = $('.overlay-text').text();
 console.log(overlayText)
 console.log(overlayText.toUpperCase())
 var upper = overlayText.toUpperCase()
-console.log('hi emily')
+
 
 
 function scrollFunction() {
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
         $(".navbar").css("background-color", "rgba(100, 100, 100)");
-        // $(".nav-logo").css("height", "50px");
-        // $(".nav-logo").css("width", "auto");
-        // $("#clock").css("font-size", "12px");
 
     } else {
         $(".navbar").css("background", "none");
@@ -19,10 +19,18 @@ function scrollFunction() {
 }
 
 
+
 $(document).ready(function () {
-
     window.onscroll = function () { scrollFunction() };
-
+    //setting burger change when clicked
+    burger.on('click', function () {
+        burger.css({ "display": "none" });
+        close.css({ 'display': 'block' })
+    })
+    close.on('click', function () {
+        burger.css({ "display": "block" });
+        close.css({ 'display': 'none' })
+    })
 
     // the end of document.ready
 });
