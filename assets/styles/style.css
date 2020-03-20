@@ -226,6 +226,12 @@ footer{
 .img-3{
     background-image: url('../images/code-quiz.jpg');
 }
+.img-4{
+    background-image: url('../images/eat-the-burger.png');
+}
+.img-5{
+    background-image: url('../images/dadLife.png');
+}
 
 .overlay{
     /* position: absolute; */
