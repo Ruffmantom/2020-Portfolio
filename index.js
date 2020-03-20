@@ -25,11 +25,11 @@ $(document).ready(function () {
     //setting burger change when clicked
     burger.on('click', function () {
         burger.css({ "display": "none" });
-        close.css({ 'display': 'block' })
+        close.css({ 'display': 'block' });
     })
     close.on('click', function () {
         burger.css({ "display": "block" });
-        close.css({ 'display': 'none' })
+        close.css({ 'display': 'none' });
     })
 
     // the end of document.ready
